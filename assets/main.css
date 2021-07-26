@@ -1,0 +1,181 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-feature-settings: "palt";
+  text-align: justify;
+  line-height: 1.8rem;
+}
+
+input[type=text],
+select,
+textarea#comm {
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: .375rem .75rem;
+  font-size: 16px;
+}
+
+body {
+  background: rgb(51, 51, 51);
+}
+
+a {
+  color: rgb(203, 206, 255);
+}
+
+main.thecontent {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  width: 320px;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+header.date {
+  font-size: 1rem;
+  font-weight: 100;
+  color: rgb(172, 172, 172);
+}
+
+.post, div {
+  padding-bottom: 1.5rem;
+}
+
+.scroller-status {
+  display: none;
+}
+
+#more-button {
+  width: 160px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+figure, p{
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+/* **
+** **
+** **
+** **
+** **
+** ** Overlay menu
+** **
+** **
+** **
+** **
+** **
+*/
+
+aside.menu {
+  z-index: 200;
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+}
+
+aside.menu button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+}
+
+aside.menu #menu_win {
+  display: none;
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  text-align: left!important;
+  padding: 3rem;
+  /* width: 50%;
+  height: 50%; */
+  background-color: rgba( 0, 0, 0, 0.5 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  color: #fff;
+}
+
+aside.menu #menu_win .close {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  right: 0;
+  top: 0;
+}
+
+aside.menu #menu_win p {
+  padding-top: 0px;
+  line-height: 1.8em;
+}
+
+aside.menu #menu_win p a {
+  padding-right: 1rem;
+}
+
+aside.menu #menu_win form div {
+  display: flex;
+}
+
+aside.menu #menu_win form label {
+  display: none;
+}
+
+aside.menu #menu_win p.sep {
+  border-top: solid 1px #666;
+  padding-top: 1rem;
+  display: flex;
+}
+
+p.sep a {
+  display: block;
+}
+
+aside.menu #menu_win input[type="submit"],
+aside.menu #menu_win input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+/*
+
+questionnaire
+
+*/
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+select {
+  width: calc( 100% );
+  background: #fff;
+}
